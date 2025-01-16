@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <title>Liste de desserts</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Red+Hat+Text:wght@400;500;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <fieldset>
+            <h2>Desserts</h2>
+
+            <div class="image-buttonOrderRow1">
+            
+
+                <div>
+                 <!-- Image -->
+                 <img class="image-plat" src="C:\Users\Tchana loïc\Desktop\Defis Frontend-Mentor\Defi_liste de produits avec cartes\assets\images\image-waffle-desktop.jpg" alt="Product Image">
+
+                    <!-- Bouton avec l'icône Cart -->
+                    <button data-plat-name="Waffle with Berries" data-price="6.50" onclick="addToCart('Waffle with Berries', 7.00)"  class="add-to-cart-btn">
+                        <img src="C:\Users\Tchana loïc\Desktop\Defis Frontend-Mentor\Defi_liste de produits avec cartes\assets\images\Cart.jpeg"> &nbsp;&nbsp;
+                        <span>Add to cart</span>
+                    </button>
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="first-name">Waffle</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="second-name">Waffle with Berries</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">$6.50</span> 
+                </div>
+
+
+                <div>
+                    <!-- Image -->
+                 <img class="image-plat" src="./assets/images/image-creme-brulee-desktop.jpg" alt="Product Image">
+
+                 <!-- Bouton avec l'icône Cart -->
+                 <button data-plat-name="Vanilla Bean Crème Brûlée" data-price="7.00" onclick="addToCart('Vanilla Bean Crème Brûlée', 7.00)" class="add-to-cart-btn">
+                     <img src="C:\Users\Tchana loïc\Desktop\Defis Frontend-Mentor\Defi_liste de produits avec cartes\assets\images\Cart.jpeg"> &nbsp;&nbsp;
+                     <span>Add to cart</span>
+                 </button>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="first-name">Crème Brûlée</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="second-name">Vanilla Bean Crème Brûlée</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">$7.00</span>
+                 
+                 
+                       
+
+                </div>
+                
+
+                <div>
+                    <!-- Image -->
+                 <img class="image-plat" src="./assets/images/image-macaron-desktop.jpg" alt="Product Image">
+
+                 <!-- Bouton avec l'icône Cart -->
+                 <button data-plat-name="Macaron Mix of Five" data-price="8.00" onclick="addToCart('Macaron Mix of Five', 8.00)"  class="add-to-cart-btn">
+                     <img src="C:\Users\Tchana loïc\Desktop\Defis Frontend-Mentor\Defi_liste de produits avec cartes\assets\images\Cart.jpeg"> &nbsp;&nbsp;
+                     <span>Add to cart</span>
+                 </button> 
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="first-name">Macaron</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="second-name">Macaron Mix of Five</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">$8.00</span>
+                 
+                 
+                       
+              
+                </div>
+            </div>
+            <br>
+            <br>
+
+
+
+            <div class="image-buttonOrderRow2">
+            
+
+                <div>
+                 <!-- Image -->
+                 <img class="image-plat" src="./assets/images/image-tiramisu-desktop.jpg" alt="Product Image">
+
+                    <!-- Bouton avec l'icône Cart -->
+                    <button data-plat-name="Classic Tiramisu" data-price="5.50" onclick="addToCart('Classic Tiramisu', 5.50)"  class="add-to-cart-btn">
+                        <img src="C:\Users\Tchana loïc\Desktop\Defis Frontend-Mentor\Defi_liste de produits avec cartes\assets\images\Cart.jpeg"> &nbsp;&nbsp;
+                        <span>Add to cart</span>
+                    </button>
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="first-name">Tiramisu</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="second-name">Classic Tiramisu</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">$5.50</span> 
+                </div>
+
+
+                <div>
+                    <!-- Image -->
+                 <img class="image-plat" src="./assets/images/image-baklava-desktop.jpg" alt="Product Image">
+
+                 <!-- Bouton avec l'icône Cart -->
+                 <button data-plat-name="Pistachio Baklava" data-price="4.00" onclick="addToCart('Pistachio Baklava', 4.00)" class="add-to-cart-btn">
+                     <img src="C:\Users\Tchana loïc\Desktop\Defis Frontend-Mentor\Defi_liste de produits avec cartes\assets\images\Cart.jpeg"> &nbsp;&nbsp;
+                     <span>Add to cart</span>
+                 </button>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="first-name">Baklava</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="second-name">Pistachio Baklava</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">$4.00</span>
+                 
+                 
+                       
+
+                </div>
+                
+
+                <div>
+                    <!-- Image -->
+                 <img class="image-plat" src="./assets/images/image-meringue-desktop.jpg" alt="Product Image">
+
+                 <!-- Bouton avec l'icône Cart -->
+                 <button data-plat-name="Lemon Meringue Pie" data-price="5.00" onclick="addToCart('Lemon Meringue Pie', 5.00)" class="add-to-cart-btn">
+                     <img src="C:\Users\Tchana loïc\Desktop\Defis Frontend-Mentor\Defi_liste de produits avec cartes\assets\images\Cart.jpeg"> &nbsp;&nbsp;
+                     <span>Add to cart</span>
+                 </button> 
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="first-name">Pie</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="second-name">Lemon Meringue Pie</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">$5.00</span>
+                 
+                 
+                       
+              
+                </div>
+            </div>
+            <br>
+            <br>
+
+
+
+            <div class="image-buttonOrderRow3">
+            
+
+                <div>
+                 <!-- Image -->
+                 <img class="image-plat" src="./assets/images/image-cake-desktop.jpg" alt="Product Image">
+
+                    <!-- Bouton avec l'icône Cart -->
+                    <button data-plat-name="Red Velvet Cake" data-price="4.50" onclick="addToCart('Red Velvet Cake', 4.50)" class="add-to-cart-btn">
+                        <img src="C:\Users\Tchana loïc\Desktop\Defis Frontend-Mentor\Defi_liste de produits avec cartes\assets\images\Cart.jpeg"> &nbsp;&nbsp;
+                        <span>Add to cart</span>
+                    </button>
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="first-name">Cake</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="second-name">Red Velvet Cake</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">$4.50</span> 
+                </div>
+
+
+                <div>
+                    <!-- Image -->
+                 <img class="image-plat" src="./assets/images/image-brownie-desktop.jpg" alt="Product Image">
+
+                 <!-- Bouton avec l'icône Cart -->
+                 <button data-plat-name="Salted Caramel Brownie" data-price="5.50" onclick="addToCart('Salted Caramel Brownie', 5.50)" class="add-to-cart-btn">
+                     <img src="C:\Users\Tchana loïc\Desktop\Defis Frontend-Mentor\Defi_liste de produits avec cartes\assets\images\Cart.jpeg"> &nbsp;&nbsp;
+                     <span>Add to cart</span>
+                 </button>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="first-name">Brownie</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="second-name">Salted Caramel Brownie</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">$4.50</span>
+                 
+                 
+                       
+
+                </div>
+                
+
+                <div>
+                    <!-- Image -->
+                 <img class="image-plat" src="./assets/images/image-panna-cotta-desktop.jpg" alt="Product Image">
+
+                 <!-- Bouton avec l'icône Cart -->
+                 <button data-plat-name="Vanilla Panna Cotta" data-price="6.50" onclick="addToCart('Vanilla Panna Cotta', 6.50)" class="add-to-cart-btn">
+                     <img src="C:\Users\Tchana loïc\Desktop\Defis Frontend-Mentor\Defi_liste de produits avec cartes\assets\images\Cart.jpeg"> &nbsp;&nbsp;
+                     <span>Add to cart</span>
+                 </button> 
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="first-name">Panna Cotta</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="second-name">Vanilla Panna Cotta</span>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="price">$6.50</span>
+                 
+                 
+                       
+              
+                </div>
+            </div>
+
+            <fieldset class="fieldset2">
+                <div id="cart">
+                    <h2>Your Cart</h2>
+                    <ul id="cartItems">
+                        <!-- Les plats ajoutés au panier apparaîtront ici -->
+                    </ul>
+                </div>
+            </fieldset>
+        
+            <script src="script.js"></script>
+
+
+
+        </fieldset>
+
+    </body>
+</html>
