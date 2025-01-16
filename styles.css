@@ -1,0 +1,127 @@
+body{
+    background-color:hsl(13, 31%, 94%) ;
+}
+
+
+h2{
+font-family:'Red Hat Text', sans-serif;
+margin-left:30px;
+}
+
+
+fieldset{
+    width:850px;
+    height:830px;
+    background-color: hsl(20, 50%, 98%);
+    margin:auto;
+    margin-top:50px;
+    border:none;
+    margin-bottom:20px;
+}
+
+.image-plat{
+    width:130px;
+    height:130px;
+    border-radius:5px;
+    margin-left:30px;
+}
+
+
+.add-to-cart-btn {
+    display:flex;
+    flex-direction:row;
+    border-radius:20px;
+    background-color:hsl(20, 50%, 98%) ;
+    padding:5px 10px 5px 10px;
+    border:1px solid;
+    position:relative;
+    top:-18px;
+    left:40px;
+    font-family:'Red Hat Text',sans-serif;
+    color: hsl(14, 65%, 9%);
+
+}
+
+
+
+.add-to-cart-btn img {
+    width:17px;
+    height:17px;
+}
+
+.image-buttonOrderRow1{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+
+.first-name{
+    font-family:'Red Hat Text',sans-serif;
+    font-weight:thin;
+    color:grey;
+    font-size:14px;
+}
+
+.second-name{
+    font-family:'Red Hat Text',sans-serif;
+    font-weight:bold;
+    font-size:11px;
+}
+
+.price{
+    font-family:'Red Hat Text',sans-serif;
+    color:hsl(14, 86%, 42%) ;
+    font-weight:bold;
+    
+}
+
+.image-buttonOrderRow2{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+
+.image-buttonOrderRow3{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+
+
+
+/* Style quand le bouton devient actif avec les icônes */
+.quantity-control-active {
+    background-color:hsl(14, 86%, 42%) ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 30px 5px 30px;
+    position:relative;
+    left:45px;
+    
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+
+
+.fieldset2{
+    position:absolute;
+    top:40px;
+    right:190px;
+    width:200px;
+    height:700px;
+    background-color:rgb(191, 132, 132);
+    
+    
+    border:none;
+   
+
+}
+
+
